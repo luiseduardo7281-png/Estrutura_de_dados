@@ -132,7 +132,6 @@ def classificados(lista):
     else:
         print("Opção inválida.")
         return
-
     encontrou = 0
 
     while aux != None:
@@ -174,7 +173,6 @@ def main():
             id = int(input("ID do aluno: "))
             nome = input("Nome do aluno: ")
             nota = float(input("Nota final: "))
-
             if nota < 0 or nota > 10:
                 print("Nota inválida!")
             else:
