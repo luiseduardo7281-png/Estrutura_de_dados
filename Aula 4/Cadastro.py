@@ -135,7 +135,7 @@ def menu_classificacao(lista):
         else:
             print("Opção inválida!")
 
-def programa():
+def main():
     lista = None
 
     while True:
@@ -176,4 +176,4 @@ def programa():
         else:
             print("Opção inválida!")
 
-programa()
+main()
