@@ -42,8 +42,6 @@ def retirar_carro(pilha, carro_procurado):
 
     return pilha, retirados
 
-
-# Cadastrando os 20 carros
 pilha = None
 
 for i in range(1, 21):
